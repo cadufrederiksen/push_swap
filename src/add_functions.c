@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   add_functions.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: carmarqu <carmarqu@student.42malaga.com    +#+  +:+       +#+        */
+/*   By: carmarqu <carmarqu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/28 12:41:03 by carmarqu          #+#    #+#             */
-/*   Updated: 2023/09/14 13:18:56 by carmarqu         ###   ########.fr       */
+/*   Updated: 2025/01/23 14:15:13 by carmarqu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,7 +91,7 @@ int	add_target2(t_state *pile_a, int idx)
 			{
 				next_big = aux->index;
 				pos = aux->pile_pos;
-			}	
+			}
 		}
 		aux = aux->next;
 	}

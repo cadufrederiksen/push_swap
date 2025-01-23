@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: carmarqu <carmarqu@student.42malaga.com    +#+  +:+       +#+        */
+/*   By: carmarqu <carmarqu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/12 09:50:45 by carmarqu          #+#    #+#             */
-/*   Updated: 2023/09/14 13:20:38 by carmarqu         ###   ########.fr       */
+/*   Updated: 2025/01/23 14:12:44 by carmarqu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,12 +74,13 @@ void				do_rrr(t_state **pile_a, t_state **pile_b);
 void				add_index2(t_state *pile_a, char **argv, int argc);
 void				over3_moves2(t_state **pile_a, t_state **pile_b,
 						int price_a, int price_b);
-void				push_swap(int argc, char **argv, int checker);
+int					push_swap(int argc, char **argv, int checker);
 void				select_alg(int size, t_state **pile_a, t_state **pile_b);
 void				final_sort(t_state **pile_a, int size_a);
 int					find_idx(t_state *pile, int idx);
 int					add_target2(t_state *pile_a, int idx);
 void				free_pile(t_state **pile);
 void				init_checker(t_state **a, t_state **b);
+void				free2d(char **str);
 
 #endif
